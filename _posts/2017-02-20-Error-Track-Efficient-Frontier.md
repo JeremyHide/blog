@@ -3,7 +3,7 @@ layout: post
 title: "Error Track Efficient Frontier"
 comments: true
 description: "This is an interested thing"
-keywords: "optimization", "Fanancial Mathematics"
+keywords: "optimization"
 ---
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
