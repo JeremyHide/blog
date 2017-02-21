@@ -8,10 +8,15 @@ keywords: "optimization"
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
 ### Problem 1
-\\[
+\begin{equation}
      \min \parallel x \parallel_{1} +  \frac{\lambda}{2} \parallel Ax - y \parallel_2^2
-\\]
+\end{equation}
 By introducing a slack variable,
 $$
 \min \parallel x \parallel_{1} + \frac{\lambda}{2} \parallel u \parallel_{2}^2 
