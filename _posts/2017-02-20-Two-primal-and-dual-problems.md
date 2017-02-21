@@ -7,4 +7,6 @@ keywords: "optimization"
 ---
 
 ### Problem 1
-$$ \min \normOne{x} + \frac{\lambda}{2} \normTwo{Ax - y}^2 $$
+$$ 
+\min \normOne{x} + \frac{\lambda}{2} \normTwo{Ax - y}^2 
+$$
