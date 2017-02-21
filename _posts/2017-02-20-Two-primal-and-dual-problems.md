@@ -23,12 +23,11 @@ By introducing a slack variable,
 \text{subject to} \quad u = Ax - y
 \end{align}
 
-
-
 \begin{align}
 \mathcal{L}(x,u,c) = \parallel x \parallel_{1} + \frac{\lambda}{2} \parallel u \parallel_{2}^2 +c^T( u - Ax + y)
 \end{align}
-If \( \parallel A^Tc \parallel_{\inf} \leq 1 \)
+
+If \\( \parallel A^Tc \parallel_{\inf} \leq 1 \\)
 \begin{algin}
 \min_{x} \mathcal{L}(x,u,c) = \frac{\lambda}{2} \parallel u\parallel_2^2 +c^T u + c^Ty := h_c(u)
 \end{align}
