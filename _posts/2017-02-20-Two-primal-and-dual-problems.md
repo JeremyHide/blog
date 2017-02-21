@@ -18,11 +18,12 @@ MathJax.Hub.Config({
      \min \parallel x \parallel_{1} +  \frac{\lambda}{2} \parallel Ax - y \parallel_2^2
 \end{equation}
 By introducing a slack variable,
-$$
-\min \parallel x \parallel_{1} + \frac{\lambda}{2} \parallel u \parallel_{2}^2 
-$$
-$$
+\begin{align}
+\min \parallel x \parallel_{1} + \frac{\lambda}{2} \parallel u \parallel_{2}^2 \\\
 \text{subject to} \quad u = Ax - y
+\end{align}
+
+
 $$
 $$
 \mathcal{L}(x,u,c) = \parallel x \parallel_{1} + \frac{\lambda}{2} \parallel u \parallel_{2}^2 +c^T( u - Ax + y)
