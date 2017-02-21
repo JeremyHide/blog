@@ -13,6 +13,12 @@ MathJax.Hub.Config({
   TeX: { equationNumbers: { autoNumber: "AMS" } }
 });
 </script>
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
 ### Problem 1
 \begin{equation}
      \min \parallel x \parallel_{1} +  \frac{\lambda}{2} \parallel Ax - y \parallel_2^2
@@ -28,7 +34,7 @@ By introducing a slack variable,
 \end{align}
 
 If \\( \parallel A^Tc \parallel_{\inf} \leq 1 \\)
-\begin{algin}
+\begin{align}
 \min_{x} \mathcal{L}(x,u,c) = \frac{\lambda}{2} \parallel u\parallel_2^2 +c^T u + c^Ty := h_c(u)
 \end{align}
 
