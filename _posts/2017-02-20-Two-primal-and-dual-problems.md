@@ -9,9 +9,9 @@ keywords: "optimization"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 ### Problem 1
-$$ 
+\begin{equation} 
      \min \parallel x \parallel_{1} +  \frac{\lambda}{2} \parallel Ax - y \parallel_2^2
-$$
+\end{equation}
 By introducing a slack variable,
 $$
 \min \parallel x \parallel_{1} + \frac{\lambda}{2} \parallel u \parallel_{2}^2 
@@ -22,7 +22,7 @@ $$
 $$
 \mathcal{L}(x,u,c) = \parallel x \parallel_{1} + \frac{\lambda}{2} \parallel u \parallel_{2}^2 +c^T( u - Ax + y)
 $$
-If $$ \parallel A^Tc \parallel_{\inf} \leq 1 $$
+If \( \parallel A^Tc \parallel_{\inf} \leq 1 \)
 $$
 \min_{x} \mathcal{L}(x,u,c) = \frac{\lambda}{2} \parallel u\parallel_2^2 +c^T u + c^Ty := h_c(u)
 $$
