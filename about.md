@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the thinking space for Sean, usually it will contains all contends Sean interested in such as mathematics, machine learning and data science.
+This is the think space for Sean, usually it will contain related to mathematics, machine learning and data science, but also sports, music, etc.
