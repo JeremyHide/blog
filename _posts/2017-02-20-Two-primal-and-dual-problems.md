@@ -9,9 +9,9 @@ keywords: "optimization"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 ### Problem 1
-\[
+\\[
      \min \parallel x \parallel_{1} +  \frac{\lambda}{2} \parallel Ax - y \parallel_2^2
-\]
+\\]
 By introducing a slack variable,
 $$
 \min \parallel x \parallel_{1} + \frac{\lambda}{2} \parallel u \parallel_{2}^2 
