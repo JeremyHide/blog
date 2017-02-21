@@ -22,7 +22,7 @@ $$
 $$
 \mathcal{L}(x,u,c) = \parallel x \parallel_{1} + \frac{\lambda}{2} \parallel u \parallel_{2}^2 +c^T( u - Ax + y)
 $$
-If $ \parallel A^Tc \parallel_{\inf} \leq 1 $
+If $$ \parallel A^Tc \parallel_{\inf} \leq 1 $$
 $$
 \min_{x} \mathcal{L}(x,u,c) = \frac{\lambda}{2} \parallel u\parallel_2^2 +c^T u + c^Ty := h_c(u)
 $$
